@@ -2111,7 +2111,7 @@ input, select, textarea {
 
 	#top {
 		padding: 10em 0 10em 0;
-		text-align: left;
+		text-align: justify;
 	}
 
 		#top .image {
@@ -2151,19 +2151,33 @@ input, select, textarea {
 			color: inherit;
 		}
 
-	#exp_profissionais h3 {
+	#work ul li {
+		font-size: 1.25em;
+	}	
+
+	#exp_profissionais h3, h4 {
 		text-align: left;
 	}
 	
 		#exp_profissionais p {
 			text-align: justify;
 			color: #000000;
-		}	
+		}
+		
+		#exp_profissionais ul li {
+			font-size: 1.25em;
+		}
 		
 	
 	#portfolio p {
-		color: #000000;	
+		color: #000000;
+		font-size: 1em;	
+		text-align: justify;
 	}
+
+		#portfolio ul li {
+			font-size: 1em;
+		}
 
 	#contact footer {
 		font-size: 0.9em;
@@ -2275,6 +2289,9 @@ input, select, textarea {
 				text-align: center;
 				padding: 5em 0;
 			}
+				#top p {
+					text-align: justify;					
+				}
 
 				#top .image {
 					margin: 0 auto 2em auto;
@@ -2288,6 +2305,10 @@ input, select, textarea {
 			#exp_profissionais {
 				text-align: center;
 				padding: 5em 0;
+			}
+
+			#portfolio p {
+				text-align: justify;
 			}
 
 	}
@@ -2489,8 +2510,8 @@ input, select, textarea {
 				
 				#exp_profissionais p {
 					font-size: 1em;
-				}	
-
+				}							
+							
 			#contact footer {
 				margin: 0;
 			}
