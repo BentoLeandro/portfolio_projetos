@@ -2184,9 +2184,14 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
-	#contact ul.lista li {
-		color: inherit;
-	}
+		#contact ul.lista li {
+			color: inherit;
+			/*list-style-type: none;*/
+		}
+
+		#contact #inf_contato {
+			text-align: left;
+		}
 
 /* Copyright */
 
