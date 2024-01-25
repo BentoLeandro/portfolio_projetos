@@ -2043,7 +2043,7 @@ input, select, textarea {
 	#nav {
 		background-color: #282828;
 		text-align: center;
-		position: fixed;
+		position: fixed;		
 		left: 0;
 		top: 0;
 		width: 100%;
@@ -2051,6 +2051,7 @@ input, select, textarea {
 		cursor: default;
 		height: 3.5em;
 		line-height: 3.5em;
+		overflow: auto;
 	}
 
 		#nav ul {
@@ -2060,9 +2061,9 @@ input, select, textarea {
 		}
 
 		#nav li {
-			display: inline-block;
-			padding-left: 0;
-		}
+			display: inline-block; 
+			padding-left: 0;			
+		}		
 
 		#nav a {
 			-moz-transition: background-color .2s ease-in-out;
@@ -2465,8 +2466,8 @@ input, select, textarea {
 		/* Nav */
 
 			#nav {
-				height: 44px;
-				line-height: 44px;
+				height: 60px; /*44px*/
+				line-height: 30px; /*44px*/
 			}
 
 				#nav a {
